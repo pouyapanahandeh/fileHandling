@@ -15,10 +15,11 @@
    3  - number three is ok.
    4  - number four is ok.
    5  - number five is ok.
-
-
-
-
+   6  - number six is ok.
+   7  - number seven is ok.
+   8  - number eight is ok.
+   9  - number nine is ok.
+   
 */
 
 int main(){
@@ -86,13 +87,13 @@ int main(){
 
 
     printf("\nWelcome to Hungarian National Club file Handling System.\n");
-    printf("please select from menue.");
+    printf("please select from menue.NOTICE : \nplease add time after every single operation.");
     
     menue:
     
     printf("\n1 - create file.\n2 - open file.\n3 - the number of line.\n4 - Delete line of Data.\n5 - Add time to your file.\n6 - write in file.\n7 - Delete File.\n8 - replace line.\n9 - EXIT.\nyou choose : \t");
     scanf("%i",&selection);
-    printf("\n%i is choosen\n", selection);
+    printf("\n%i is chosen\n", selection);
     
 
     /* Create File */

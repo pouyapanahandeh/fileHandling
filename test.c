@@ -16,6 +16,7 @@
    4  - number four is ok.
    5  - number five is ok.
    6  - number six is ok.
+   (6 work by trick)
    7  - number seven is ok.
    8  - number eight is ok.
    9  - number nine is ok.

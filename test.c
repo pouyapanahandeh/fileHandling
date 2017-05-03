@@ -77,7 +77,8 @@ int main(){
     int status;
     char file_name[25];
 
-
+    //line counter 
+   int count = 1;
 
    
    // printf("\nPlease Enter Username (up to 50 characters): \n");
@@ -268,31 +269,32 @@ int main(){
             printf("\nQuestion : ");
             //scanf(" %s", answerOne);
             fgets (questions,1000,stdin);
-            fprintf(f, "%s",questions);
-
+            fprintf(f, "%i %s",count,questions);
+            count++;
             
             printf("\nType first answer: ");
             //scanf(" %s", answerTwo);
             fgets (answerOne,1000,stdin);
-            fprintf(f, "%s",answerOne);
+            fprintf(f, "%i %s",count,answerOne);
+            count++;
 
 
             printf("\nType second answer: ");
             //scanf(" %s", answerThree);
             fgets (answerTwo,1000,stdin);
-            fprintf(f, "%s",answerTwo);
-
+            fprintf(f, "%i %s",count,answerTwo);
+            count++;
 
             printf("\nType third answer: ");
             //scanf(" %s", answerFour);
             fgets (answerThree,1000,stdin);
-            fprintf(f, "%s",answerThree);
-
+            fprintf(f, "%i %s",count,answerThree);
+            count++;
             printf("\nType fourth answer: ");
             //scanf(" %s", answerFour);
             fgets (answerFour,1000,stdin);
-            fprintf(f, "%s",answerFour);
-
+            fprintf(f, "%i %s",count,answerFour);
+            count++;
             //fprintf(f, " %s %s %s %s %s ", question,answerOne,answerTwo,answerThree,answerFour);
 
             fclose(f);
